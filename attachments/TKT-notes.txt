@@ -1,0 +1,73 @@
+MIT: C, C++, AI, etc.
+MIT - Massachusetts Institute of Technology
+
+Mathematical model vs. Computational model
+- 2 new constructs in computational model: loop, if-else
+- computational model: reach universal computing
+
+Alan Turing award: equivalent to Nobel prize, Field award
+Donald Knuth, Alan Turing: giants
+- Richard Stallman: author of Emacs
+
+============================================
+Course: SICP stands for Structure and Interpretation of Computer Programs
+- programming language: LISP/Scheme
+- course videos: 
+	https://www.youtube.com/watch?v=2Op3QLzMgSY
+- textbooks:
+	http://mitpress.mit.edu/sicp/
+- compiler
+	http://mitpress.mit.edu/sicp/scheme/index.html
+
+- Lisp vs. Scheme
+	- Lisp is family of Lisp languages: difficult to learn because there are so many rules/concepts
+	- Scheme: is a Lisp implementation: easy to learn and equally powerful
+	
+- Learning Objectives:
+  - master English: listen, write
+  - understand the spirit of Lisp/Scheme
+
+============================================
+Environemnt setup
+- choose a name: short and no meaning??? (e.g. tkt028, RMS)
+- create Github account
+	https://github.com/
+- octopress setup: Ruby, Git, download octopress source code
+	http://www.techelex.org/setup-octopress-on-windows7/
+- editor: Emacs  
+
+Note: remember to use English
+
+============================================
+Fast navigation on Windows
+- use Windows + 1, Windows 2, etc. to switch between apps
+
+============================================
+Octopress some basic commands:
+- build octpress into HTML
+  D:\repos\octopress>rake generate
+
+- run in local host
+  D:\repos\octopress>rake preview
+then visit http://locahost:4000/ for blog review
+Press Ctr+C to stop the server.
+
+- deploy to internet
+  D:\repos\octopress>rake deploy
+then it will prompt for user and password to push to github (internet)
+Visit http://mrwen00.github.io/
+
+- to add a post
+  D:\repos\octopress>rake new_post
+  ## Set the codepage to 65001 for Windows machines
+  Enter a title for your post: My first post
+the newly created post is saved at d:/repos/octopress/source/_posts
+
+
+
+
+
+
+
+
+
